@@ -12,7 +12,7 @@
 -**Install package
   Save Dependencies to requirements.txt (optional):
   You can save the installed dependencies to a requirements.txt file for easier management and sharing with others.
-  pip freeze > requirements.txt
+pip freeze > requirements.txt
 
 
   pip install fastapi pymongo uvicorn
