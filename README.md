@@ -2,20 +2,20 @@
 ## Setup env
 
 - **virtualenv venv
-  For Linux/Mac
+For Linux/Mac
 
 - **source venv/bin/activate
-  For Windows
+For Windows
+source venv/Scripts/activate
 
-  source venv/Scripts/activate
+- **Install package
+Save Dependencies to requirements.txt (optional):
+You can save the installed dependencies to a requirements.txt file for easier management and sharing with others.
 
--**Install package
-  Save Dependencies to requirements.txt (optional):
-  You can save the installed dependencies to a requirements.txt file for easier management and sharing with others.
 pip freeze > requirements.txt
 
 
-  pip install fastapi pymongo uvicorn
+pip install fastapi pymongo uvicorn
   
 - **Start server
 
