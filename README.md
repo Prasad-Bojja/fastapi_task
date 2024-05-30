@@ -1,22 +1,22 @@
-##Fastapi MongoDB REST API
-#Setup env
+#FastAPI MongoDB REST API
+##Setup env
 
-virtualenv venv
-For Linux/Mac
+- **virtualenv venv
+  For Linux/Mac
 
-source venv/bin/activate
-For Windows
+- **source venv/bin/activate
+  For Windows
 
-source venv/Scripts/activate
-Install package
+  source venv/Scripts/activate
 
-Save Dependencies to requirements.txt (optional):
+-**Install package
+  Save Dependencies to requirements.txt (optional):
+  You can save the installed dependencies to a requirements.txt file for easier management and sharing with others.
+  pip freeze > requirements.txt
 
-You can save the installed dependencies to a requirements.txt file for easier management and sharing with others.
-pip freeze > requirements.txt
 
+  pip install fastapi pymongo uvicorn
+  
+- **Start server
 
-pip install fastapi pymongo uvicorn
-Start server
-
-uvicorn index:app --reload
+  uvicorn index:app --reload
